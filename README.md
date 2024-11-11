@@ -51,7 +51,7 @@ https://localhost
 
 
 # PhpMyadmin
-http://localhost:4443
+https://localhost:4443
 ```
 
 
