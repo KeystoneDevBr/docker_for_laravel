@@ -48,7 +48,7 @@ php artisan up
 ### Observações
 #### Para correta instalação do Container do SQS Server, siga as instruções contindas em;
  
-[./docker/developer/sqlsrv/README.md](./docker/developer/sqlsrv/README.md)
+[./docker/developer/sqlsrv/README.md](.docker/developer/sqlsrv/README.md)
 
 ou 
 
