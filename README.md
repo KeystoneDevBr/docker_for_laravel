@@ -44,7 +44,7 @@ php artisan up
 
 ```
 
-## Acessando os container da Aplicação e do Banco de Dados
+## Acessando o container da Aplicação e do Banco de Dados
 ```
 # Aplicação
 https://localhost
