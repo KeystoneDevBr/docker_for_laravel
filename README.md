@@ -44,6 +44,16 @@ php artisan up
 
 ```
 
+## Acessando os container da Aplicação e do Banco de Dados
+```
+# Aplicação
+https://localhost
+
+
+# PhpMyadmin
+http://localhost:4443
+```
+
 
 ### Observações
 #### Para correta instalação do Container do SQS Server, siga as instruções contindas em;
