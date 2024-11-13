@@ -64,3 +64,28 @@ ou
 
 [./docker/production/sqlsrv/README.md](.docker/production/sqlsrv/README.md)
 
+
+
+#### Para compartilhar na internet o projeto utilizando o Ngrok siga os passo abaixo
+
+##### Passo 1: Instalar e configurar o Agnete [Ngrok](https://ngrok.com)
+```
+#INSTALAR O NGROK
+
+brew install ngrok/ngrok/ngrok
+
+#CONFIGURAR O TOKEN
+ngrok config add-authtoken <SEU-TOKEN>
+```
+##### Passo 2: Expor o projeto localhost via Ngrok
+
+Como o conteiner docker está configurado para redirecionar as conexões http para https, 
+o serivço exposto deverá ser  o https apenas
+´´´
+ngrok http --host-header=rewrite localhost:443
+
+´´´
+
+##### Passo 3: Acessar o site pela url gerada no comando anterior
+
+[https://bcee-2804-d59-8927-d000-a052-671a-bf45-b7b5.ngrok-free.app](https://dashboard.ngrok.com/endpoints)
