@@ -81,8 +81,17 @@ ngrok config add-authtoken <SEU-TOKEN>
 
 Como o conteiner docker está configurado para redirecionar as conexões http para https, 
 o serivço exposto deverá ser  o https apenas
+
 ´´´
 ngrok http --host-header=rewrite localhost:443
+
+#0u
+
+ngrok http --host-header=rewrite localhost:443
+
+#Com google
+
+ngrok http  localhost:443 --oauth=google --oauth-allow-domain="mycorp.com"
 
 ´´´
 
