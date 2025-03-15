@@ -6,7 +6,7 @@
 
 ```
 Ngix:1.27.0
-PHP:8.3-fpm
+PHP:8.4-fpm
 PhpMyAdmin
 PgAdmin4
 Mysql
